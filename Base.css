@@ -1,0 +1,126 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 20%;
+    background-color: #fcfcfc;
+    padding: 8px 14px 0px;
+}
+.header {
+    background-color:#AFE2E0;
+    min-height: 60px;
+    box-shadow: 9px 8px 9px 1px rgba(173,173,173,0.81);
+    -webkit-box-shadow: 9px 8px 9px 1px rgba(173,173,173,0.81);
+    -moz-box-shadow: 9px 8px 9px 1px rgba(173,173,173,0.81);
+    border: solid 1px gray;
+    height: 150px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: #FBD7D7;
+    min-height: 10px;
+    border: solid 1px gray;
+    font-family: Georgia;
+    height: 200px;
+    font-size: 28px;
+}
+.link {
+    text-decoration: none;
+    color: #90D5D2;
+    font-family: Georgia;
+    font-size: 35px;
+}
+.link:hover {
+    color: aquamarine;
+}
+.link2 {
+    color: #F49191;
+    text-decoration: none;
+}
+.link2:hover {
+    color: #f9c0c0;
+}
+.fundador {
+    text-align: right;
+    font-family: Lucida Handwriting;
+}
+.texto {
+    font-family: Courier New;
+}
+table {
+    box-shadow: 9px 8px 9px 1px rgba(173,173,173,0.81);
+    -webkit-box-shadow: 9px 8px 9px 1px rgba(173,173,173,0.81);
+    -moz-box-shadow: 9px 8px 9px 1px rgba(173,173,173,0.81);
+    border-collapse: collapse;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+table thead th {
+    background-color: gray;
+    color: white;
+    font-family: Verdana;
+}
+table, td, th {
+    border: solid 1px black;
+}
+table tr {
+    text-align: center;
+}
+.span {
+    word-spacing: 70px;
+}
+.formulario {
+    text-align: left;
+    vertical-align: super;
+    font-size: 25px;
+}
+.mensagem {
+    width: 250px;
+    height: 20;
+}
+.posicao {
+ position: relative;
+ top: -20px;
+ height: 400px;
+ width: 400px;
+ font-size: 19px;
+}
+input {
+    width: 250px;
+    height: 25px;
+}
+.row{
+    margin: 5px;
+}
+label{
+    width: 100px;
+    text-align: right;
+    display: inline-block;
+    padding-right: 5px;
+    text-decoration: underline;
+}
+fieldset{
+    margin: 15px 0;
+    border-radius: 20px;
+    
+}
